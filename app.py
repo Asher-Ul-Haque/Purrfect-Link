@@ -233,7 +233,7 @@ def backend():
     if chosenTask==0:
         longURL.set((urlEntry.get()))
         #a valid url
-        if urlEntry.get().startswith('www.') or urlEntry.get().startswith('https://') or urlEntry.get().startswith('http://'):
+        if urlEntry.get().startswith('www.') or urlEntry.get().startswith('https://') or urlEntry.get().startswith('http://') or urlEntry.get().endswith('.com') or urlEntry.get().endswith('.in'):
             for i in reader:
                 if longURL.get() == i[0] and not (deprecated(i[2])):
                     #URL existed already

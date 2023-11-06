@@ -32,6 +32,14 @@ a) use customtkinter link to download customtkinter <br>
 b) open terminal <br>
 c) pip install customtkinter <br>
 
+<H3>How to Install QrCode </H3>
+<H4>MAC</H4>
+1. open terminal<br>
+2. pip3 install qrcode <br>
+<H4>WINDOWS</H4>
+1. open terminal<br>
+2. pip install qrcode <br>
+
 <H3>How to Install Pillow</H3>
 <H4>MAC</H4>
 1. open terminal <br>

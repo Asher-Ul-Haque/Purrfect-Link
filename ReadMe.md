@@ -32,7 +32,7 @@
 <H3>How the program works-</H3>
 1. The program has three functions: one to shorten a URL, one to make a QR code and one to lengthen a shortened URL<br>
 a. Any long URL needs to satisfy two conditions to be acceptable- <br>
-  i. It must have a valid beginning like http://, https://, www. etc <br>
+  i. It must have a valid beginning like http://, https://, www. or a valid end like .com, .in etc <br>
   ii. If it already exists in the database, it should be no more than 30 days old<br>
 b. If the conditions are satisfied and the link exists in the database, it is retrieved and shown <br>
 c. If the conditions are satisfied and the link doesn't exist in the database, it is created, and a record of the long URL, short URL, and the date created is added to the database<br>
